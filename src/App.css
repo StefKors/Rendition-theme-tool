@@ -46,12 +46,6 @@ article {
   }
 }
 
-@media screen and (max-width: 850px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .grid-2 {
   display: grid;
   gap: 1rem;
@@ -116,4 +110,18 @@ article {
   position: absolute;
   top: 100%;
   left: 0;
+}
+
+.test-button {
+  padding: 1rem;
+  margin: .5rem;
+  background-color: #00AEEF;
+}
+
+.test-button:hover {
+  background-color: #00688F;
+}
+
+.test-button:disabled {
+  background-color: #84B7CA;
 }
